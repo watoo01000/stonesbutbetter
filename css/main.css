@@ -1,0 +1,67 @@
+body{
+    background: #FDFBF5;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 26px;
+    text-align: left;
+    padding: 20px;
+    color: #222222;
+}
+
+.titleimg{
+    width: 20%;
+    display: inline-block;
+    filter: brightness(10%);
+
+}
+.titleimg:hover{
+    filter: brightness(100%);
+    cursor: pointer;
+
+}
+.leftside{
+    width: 18vw;
+}
+.stones{
+    padding-left:18vw;
+    align: right;
+    width: 100vw;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.info{
+    text-align: left;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+    line-height: 150%;
+}
+.news{
+    list-style: none;
+    overflow: hidden;
+}
+
+marquee {
+    float: left;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: #222222;
+    padding: 0%;
+    direction:"right";
+    animation:  32s linear infinite;
+}
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+.search{
+    padding-left: 18vw;
+    font-family:'Times New Roman', Times, serif;
+    color: #222222;
+    width: 30vw;
+    font-size: 12px;
+}
+
